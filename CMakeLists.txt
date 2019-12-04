@@ -4,7 +4,7 @@ project(samples)
 
 include(cmake/function.cmake)
 
-add_subdirectory(function_lib)
+add_subdirectory(library)
 add_subdirectory(main)
 
 option(BTEST "build test?" OFF)
